@@ -11,7 +11,7 @@ class GeohashGrid extends AbstractAggregation
 {
     use Traits\ShardSizeTrait;
 
-    public const DEFAULT_PRECISION_VALUE = 5;
+    public const DEFAULT_PRECISION_VALUE = 7;
     public const DEFAULT_SIZE_VALUE = 10000;
 
     /**
